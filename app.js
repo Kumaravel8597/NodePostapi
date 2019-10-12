@@ -18,7 +18,7 @@ app.post("/authordetails" , async(request , response) =>{
 });
 
 
-const Authordetails = Mongoose.model("author",{
+const details = Mongoose.model("books",{
     "name" : String,
     "phonenumber" : Number,
      "email" : String,
